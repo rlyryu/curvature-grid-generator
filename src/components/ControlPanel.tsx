@@ -270,7 +270,7 @@ export function ControlPanel({ onExportPng }: ControlPanelProps) {
             label="Max Depth"
             value={settings.maxDepth}
             min={1}
-            max={20}
+            max={100}
             step={0.1}
             onChange={setSetting("maxDepth")}
           />
